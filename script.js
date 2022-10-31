@@ -2,13 +2,13 @@ let calValue = '';
 let calculatorResult = document.getElementById('calculatorResult');
 
 let bgButton = document.querySelectorAll('button');
-//console.log(bgButton);
+
 
 Array.from(bgButton).forEach((calButton)=>{
-    //console.log(calButton);
+ 
 
     calButton.addEventListener("click", ()=>{
-        //console.log(calButton.innerHTML);
+       
 
         if(calButton.innerHTML == '='){
             calValue = eval(calValue);
